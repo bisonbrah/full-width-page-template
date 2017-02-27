@@ -1,0 +1,17 @@
+.full .site-inner {
+  padding: 0;
+}
+
+.full .site-inner .wrap {
+  max-width: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+@include breakpoint(sm) {
+
+  .full .site-inner .wrap {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
